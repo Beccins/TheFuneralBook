@@ -332,16 +332,6 @@ export default function OrderOfServicePage() {
 
           </div>
 
-          <Card className="bg-muted border-border">
-            <CardContent className="p-8 text-center">
-              <blockquote className="text-lg text-foreground italic leading-relaxed text-balance">
-                {
-                  '"Another quote here"' // TODO get quotes
-                }
-              </blockquote>
-            </CardContent>
-          </Card>
-
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/leave-message">
               <Button className="w-full sm:w-auto bg-primary hover:bg-primary/90 text-primary-foreground">

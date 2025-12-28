@@ -47,17 +47,10 @@ export default function MemorialHomepage() {
                 <h2 className="text-4xl font-bold text-foreground text-balance">Gary Robert Beaumont</h2>
 
                 <div className="text-xl text-muted-foreground space-y-2">
-                  <p>14th, January, 1947 - 18th, March, 2024</p>
+                  <p>14th January, 1947 - 18th March, 2024</p>
                   <p className="text-2xl font-semibold text-foreground italic">In Loving Memory</p>
                 </div>
 
-                <div className="max-w-2xl mx-auto mt-6">
-                  <p className="text-lg text-foreground leading-relaxed text-pretty">
-                    {
-                      "TODO DEDICATION"
-                    }
-                  </p>
-                </div>
               </div>
             </CardContent>
           </Card>

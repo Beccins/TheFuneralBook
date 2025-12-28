@@ -48,14 +48,13 @@ export default function AfterServicePage() {
                 <div className="text-center">
                   <Clock className="w-8 h-8 mx-auto mb-3 text-primary" />
                   <h3 className="font-semibold text-foreground mb-2">Time</h3>
-                  <p className="text-muted-foreground">Time Unknown</p>
-                  <p className="text-sm text-muted-foreground mt-1">Immediately following the service</p>
+                  <p className="text-muted-foreground">Immediately Following the service</p>
                 </div>
                 <div className="text-center">
                   <MapPin className="w-8 h-8 mx-auto mb-3 text-primary" />
                   <h3 className="font-semibold text-foreground mb-2">Location</h3>
                   <p className="text-muted-foreground text-pretty">
-                    Location of reception unknown
+                    In the church grounds of Hills Community Church of the Nazarene Kenthurst
                   </p>
                 </div>
               </div>
@@ -82,8 +81,7 @@ export default function AfterServicePage() {
                 <div>
                   <h4 className="font-semibold text-foreground mb-2">Private Family Service</h4>
                   <p className="text-muted-foreground text-pretty">
-                    A private interment service for immediate family will be held at Restwood Memorial Gardens on
-                    Sunday, March 26th at 09:00 AM.
+                    A private interment service for immediate family will be held at BESS TO CONFIRM NAME Memorial Chapel at 9am
                   </p>
                 </div>
                 <div>

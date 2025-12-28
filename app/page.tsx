@@ -243,7 +243,7 @@ export default function MemorialHomepage() {
 
       {/* Footer */}
       <footer className="border-t border-border bg-muted mt-16">
-        <div className="container mx-auto px-4 py-8 text-center">
+        <div className="container mx-auto px-4 py-8 text-center items-center justify-center">
           <div className="flex items-center gap-4">
             <p className="text-muted-foreground">{"With love and remembrance • The Funeral Book"}</p>
             <Image

@@ -82,7 +82,7 @@ export default function AfterServicePage() {
                 <div>
                   <h4 className="font-semibold text-foreground mb-2">Private Family Service</h4>
                   <p className="text-muted-foreground text-pretty">
-                    A private interment service for immediate family will be held at BESS TO CONFIRM NAME Memorial Chapel at 9am
+                    A private interment service for immediate family will be held at Castlebrook Memorial Park Garden Chapel Rouse Hill at 9am
                   </p>
                 </div>
                 <div>

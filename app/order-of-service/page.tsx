@@ -88,7 +88,16 @@ I will not neglect your word`,
     subtitle: "Blessed Assurance",
     time: "unknown",
     type: "hymn",
-    spotifyId:"", // TODO find later
+    content: `1 Blessed assurance, Jesus is mine!
+Oh, what a foretaste of glory divine!
+Heir of salvation, purchase of God,
+born of his Spirit, washed in his blood.
+
+Refrain:
+This is my story, this is my song,
+praising my Savior all the day long.
+This is my story, this is my song,
+praising my Savior all the day long.`
   },
   {
     id: "sharing-memories",
@@ -103,7 +112,39 @@ I will not neglect your word`,
     subtitle: "It is well with my soul",
     time: "unknown",
     type: "hymn",
-    spotifyId:"" // TODO find later
+    content: `When peace, like a river, attendeth my way,
+When sorrows like sea billows roll;
+Whatever my lot, Thou hast taught me to say,
+It is well, it is well with my soul.
+
+Refrain:
+It is well with my soul,
+It is well, it is well with my soul.
+
+Though Satan should buffet, though trials should come,
+Let this blest assurance control,
+That Christ hath regarded my helpless estate,
+And hath shed His own blood for my soul.
+
+My sin—oh, the bliss of this glorious thought!—
+My sin, not in part but the whole,
+Is nailed to the cross, and I bear it no more,
+Praise the Lord, praise the Lord, O my soul!
+
+For me, be it Christ, be it Christ hence to live:
+If Jordan above me shall roll,
+No pang shall be mine, for in death as in life
+Thou wilt whisper Thy peace to my soul.
+
+But, Lord, ’tis for Thee, for Thy coming we wait,
+The sky, not the grave, is our goal;
+Oh, trump of the angel! Oh, voice of the Lord!
+Blessed hope, blessed rest of my soul!
+
+And Lord, haste the day when the faith shall be sight,
+The clouds be rolled back as a scroll;
+The trump shall resound, and the Lord shall descend,
+Even so, it is well with my soul.`
   },
   {
     id: "benediction",

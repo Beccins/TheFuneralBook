@@ -189,7 +189,7 @@ export default function ContactPage() {
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <div>
-                    <h4 className="font-semibold text-foreground mb-2">Digital Memorial Services</h4>
+                    <h4 className="font-semibold text-foreground mb-2">The Funeral Book</h4>
                     <p className="text-muted-foreground mb-2">
                       <a href="tel:+12175550123" className="text-primary hover:underline">
                         0200 000 000
@@ -221,8 +221,8 @@ export default function ContactPage() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground mb-2">
-                    <a href="mailto:support@digitalmemorialservices.com" className="text-primary hover:underline">
-                      support@digitalmemorialservices.com
+                    <a href="mailto:Rebecca.munns@thefuneralbook.com" className="text-primary hover:underline">
+                      Rebecca.munns@thefuneralbook.com
                     </a>
                   </p>
                   <p className="text-sm text-muted-foreground">We typically respond within 2 hours</p>

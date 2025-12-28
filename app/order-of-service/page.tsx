@@ -357,7 +357,7 @@ export default function OrderOfServicePage() {
             <div className="flex items-center gap-4">
               <p className="text-muted-foreground">{"With love and remembrance • The Funeral Book"}</p>
               <Image
-                src="/funeral-book-logo.webp"
+                src="/bessie_logo_final.png"
                 alt="The Funeral Book"
                 width={60}
                 height={30}

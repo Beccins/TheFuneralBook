@@ -27,7 +27,20 @@ export default function ContactPage() {
     setIsSubmitting(true)
 
     // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 1000))
+    // await new Promise((resolve) => setTimeout(resolve, 1000))
+    const response = await fetch(
+      "https://api.resend.com/emails",
+      {
+        method: "POST",
+        headers: new Headers({"Authorization": "Bearer re_4Cdg3hos_75Lpj7kHdvQ3SsEKqwY3GmPA"}),
+        body: JSON.stringify({
+          from: "testing <onboarding@resend.dev>",
+          to: "samueltonyhogan@gmail.com",
+          subject: "testing",
+          html: "testing2"
+        })
+      }
+    )
 
     setIsSubmitted(true)
     setIsSubmitting(false)

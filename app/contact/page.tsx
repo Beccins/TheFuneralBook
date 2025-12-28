@@ -9,6 +9,7 @@ import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Label } from "@/components/ui/label"
 import Link from "next/link"
+import Image from "next/image"
 import { ArrowLeft, Phone, Mail, Clock, MessageSquare, HelpCircle, Send } from "lucide-react"
 
 export default function ContactPage() {
@@ -352,10 +353,34 @@ export default function ContactPage() {
         </div>
       </main>
 
+    
       {/* Footer */}
       <footer className="border-t border-border bg-muted mt-16">
         <div className="container mx-auto px-4 py-8 text-center">
-          <p className="text-muted-foreground">{"With love and remembrance • Digital Memorial Services"}</p>
+          
+          <div className="flex items-center justify-center">
+            <div className="flex items-center gap-4">
+              <p className="text-muted-foreground">{"With love and remembrance • The Funeral Book"}</p>
+              <Image
+                src="/funeral-book-logo.webp"
+                alt="The Funeral Book"
+                width={60}
+                height={30}
+                className="object-contain"
+              />
+            </div>
+          </div>
+          <p className="text-xs text-muted-foreground/70 mt-2">
+            Created by{" "}
+            <a
+              href="https://github.com/afishydeath"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-muted-foreground transition-colors"
+            >
+              Sam Hogan
+            </a>
+          </p>
         </div>
       </footer>
     </div>

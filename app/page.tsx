@@ -138,7 +138,7 @@ export default function MemorialHomepage() {
                     </div>
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold text-foreground mb-2">Donations</h3>
+                    <h3 className="text-xl font-semibold text-foreground mb-2">Legacy</h3>
                     <p className="text-muted-foreground text-pretty">
                       Make a charitable donation in memory of Gary
                     </p>

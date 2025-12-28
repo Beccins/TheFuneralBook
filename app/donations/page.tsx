@@ -68,7 +68,7 @@ export default function DonationsPage() {
                 Back to Memorial
               </Button>
             </Link>
-            <h1 className="text-2xl font-bold text-foreground">Memorial Donations</h1>
+            <h1 className="text-2xl font-bold text-foreground">Legacy</h1>
             <div className="w-32"></div> {/* Spacer for centering */}
           </div>
         </div>

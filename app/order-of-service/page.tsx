@@ -31,7 +31,26 @@ const serviceItems: ServiceItem[] = [
     subtitle: "Whenn the Roll is Called Up Yonder",
     time: "unknown",
     type: "hymn",
-    spotifyId: "" //TODO find this
+    content: `1 When the trumpet of the Lord shall sound and time shall be no more,
+And the morning breaks, eternal, bright and fair;
+When the saved of earth shall gather over on the other shore,
+And the roll is called up yonder, I'll be there.
+
+Refrain:
+When the roll is called up yonder,
+When the roll is called up yonder,
+When the roll is called up yonder,
+When the roll is called up yonder, I'll be there.
+
+2 On that bright and cloudless morning when the dead in Christ shall rise,
+And the glory of his resurrection share;
+When his chosen ones shall gather to their home beyond the skies,
+And the roll is called up yonder, I'll be there. [Refrain]
+
+3 Let us labor for the Master from the dawn till setting sun;
+Let us talk of all his wondrous love and care.
+Then when all of life is over and our work on earth is done,
+And the roll is called up yonder, I'll be there. [Refrain]`
   },
 
   {
@@ -121,7 +140,7 @@ function InteractiveServiceItem({ item }: { item: ServiceItem }) {
     }
   }
 
-  const canExpand = item.type === "prayer" && item.content
+  const canExpand =( item.type === "prayer" && item.content) || (item.type === "hymn" && item.content)
   const canPlay = (item.type === "hymn" && item.spotifyId) || (item.type === "tribute" && item.audioUrl)
 
   return (
@@ -204,9 +223,6 @@ export default function OrderOfServicePage() {
             <CardHeader className="text-center pb-4">
               <CardTitle className="text-3xl font-bold text-foreground mb-4">Celebration of Life</CardTitle>
               <h2 className="text-2xl text-foreground mb-2">Gary Robert Beaumont</h2>
-              <p className="text-lg text-muted-foreground italic">
-                {"Quote goes here"}
-              </p>
             </CardHeader>
           </Card>
 
@@ -237,11 +253,11 @@ export default function OrderOfServicePage() {
                   rel="noopener noreferrer"
                   className="text-muted-foreground text-pretty hover:text-primary transition-colors cursor-pointer underline decoration-dotted underline-offset-4"
                 >
-                  Hills Community Church of the Nazarene
+                  Hills Community Church of the Nazarene Kenthurst
                   <br />
-                  41-43 Eaton Rd
+                  87 Kenthurst Rd
                   <br />
-                  West Pennant Hills, NSW
+                  Kenthurst, NSW, 2156
                 </a>
               </CardContent>
             </Card>

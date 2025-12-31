@@ -240,7 +240,7 @@ export default function AddMemoriesPage() {
               </CardTitle>
               <p className="text-muted-foreground text-pretty">
                 Share your favorite photos and memories of Gary. These precious moments will create a lasting
-                tribute to her beautiful life and the joy he brought to so many people.
+                tribute to his beautiful life and the joy he brought to so many people.
               </p>
             </CardHeader>
           </Card>

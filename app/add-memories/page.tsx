@@ -82,6 +82,7 @@ export default function AddMemoriesPage() {
       media: [
         { type: "image", url: "/08_Gary in Cadets.jpg", title: "Gary in Cadets" },
         { type: "image", url: "02_Gary_11ish_with family.jpg", title: "Gary with Family" },
+        { type: "video", url: "https://youtu.be/zmPNVK6RZ4s", title: "video of pictures"},
       ],
       date: "submission date",
       timeframe: "memory date",

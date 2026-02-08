@@ -28,7 +28,7 @@ export default function MemorialHomepage() {
                 className="object-contain"
               />
               <div className="h-8 w-px bg-border"></div>
-              <h1 className="text-2xl font-bold text-foreground">Digital Memorial Services</h1>
+             
             </div>
           </div>
         </div>

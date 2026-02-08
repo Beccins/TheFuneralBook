@@ -21,8 +21,8 @@ export default function MemorialHomepage() {
               <h1 className="text-2xl font-bold text-foreground">Digital Memorial Services</h1>
               <div className="h-8 w-px bg-border"></div>
                <Image
-                src="/funeral-book-logo.webp"
-                alt="The Funeral Book"
+                src="Hills family funerals logo.png"
+                alt="Hills Family Funerals"
                 width={120}
                 height={60}
                 className="object-contain"

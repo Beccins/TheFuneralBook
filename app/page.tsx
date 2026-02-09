@@ -54,7 +54,7 @@ export default function MemorialHomepage() {
 
               {/* Memorial Information */}
               <div className="space-y-4">
-                <h2 className="text-4xl font-bold text-foreground text-balance">Maureen 'Mor" Munns</h2>
+                <h2 className="text-4xl font-bold text-foreground text-balance">Maureen 'Mor' Munns</h2>
 
                 <div className="text-xl text-muted-foreground space-y-2">
                   <p>15th March, 1938 - 25th January, 2026</p>

@@ -44,7 +44,7 @@ export default function MemorialHomepage() {
               <div className="mb-8">
                 <div className="relative w-48 h-48 mx-auto rounded-full overflow-hidden border-4 border-muted">
                   <Image
-                    src="/GARY 2010.jpg"
+                    src="Mor Munns funeral book cover image.jpg"
                     alt="Memorial portrait"
                     fill
                     className="object-cover"

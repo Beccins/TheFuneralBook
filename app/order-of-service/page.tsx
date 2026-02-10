@@ -21,60 +21,71 @@ interface ServiceItem {
 const serviceItems: ServiceItem[] = [
   {
     id: "welcome",
-    title: "Welcome",
-    subtitle: "Pastor Glenn Stanley",
+    title: "Welcome and prayer",
+    subtitle: "Stephen Bates",
+    time: "unknown",
+    type: "general",
+  },
+  {
+    id: "Scripture reading",
+    title: "1 Peter chapter 1:3-9",
+    subtitle: "Caitlyn Munns",
     time: "unknown",
     type: "general",
   },
   {
     id: "song",
     title: "Song",
-    subtitle: "When the Roll is Called Up Yonder",
+    subtitle: "How Great Thou Art",
     time: "unknown",
     type: "hymn",
-    content: `1 When the trumpet of the Lord shall sound and time shall be no more,
-And the morning breaks, eternal, bright and fair;
-When the saved of earth shall gather over on the other shore,
-And the roll is called up yonder, I'll be there.
+    content: `O Lord my God
+When I in awesome wonder 
+Consider all the worlds
+Thy hands have made, 
+I see the stars,
+I hear the rolling thunder, 
+Thy pow’r throughout The universe displayed!
 
-Refrain:
-When the roll is called up yonder,
-When the roll is called up yonder,
-When the roll is called up yonder,
-When the roll is called up yonder, I'll be there.
+Chorus:
+Then sings my soul,
+My Saviour God, to Thee; 
+How great Thou art, 
+How great Thou art!
+Then sings my soul,
+My Saviour God, to Thee;
+How great Thou art,
+How great Thou art!
+ 
+And when I think
+That God, His Son not sparing, 
+Sent Him to die,
+I scarce can take it in - 
+That on the cross,
+My burden gladly bearing, He bled and died
+To take away my sin!
 
-2 On that bright and cloudless morning when the dead in Christ shall rise,
-And the glory of his resurrection share;
-When his chosen ones shall gather to their home beyond the skies,
-And the roll is called up yonder, I'll be there. [Refrain]
+Chorus
 
-3 Let us labor for the Master from the dawn till setting sun;
-Let us talk of all his wondrous love and care.
-Then when all of life is over and our work on earth is done,
-And the roll is called up yonder, I'll be there. [Refrain]`
-  },
+When Christ shall come 
+With shout of acclamation 
+And take me home,
+What joy shall fill my heart! 
+Then I shall bow
+In humble adoration
+And there proclaim,
+My God, how great Thou art!
+ 
+Chorus
+ },
 
   {
-    id: "bible-reading",
-    title: "Bible Reading",
-    subtitle: "Psalm 119: 9-16 - Larry Ransley",
+    id: "Memories shared of Maureen",
+    title: "Memories shared of Maureen",
+    subtitle: "Eulogy - Phil, Janine & Ian Munns",
     time: "unknown",
     type: "prayer",
-    content: `How can a young person stay on the path of purity
-by living according to your word I seek you with all my heart
-do not let me stray from your commands
-I have hidden your word in my heart
-that I might not sin against you
-praise be to you Lord
-teach me your decrees
-with my lips I recount
-all the laws that come from your mouth
-I rejoice in following your statutes
-as one rejoices in great riches
-I meditate on your precepts
-and I consider your ways
-I delight in your decrees
-I will not neglect your word`,
+    content: Could this be Phils poem,
   },
   {
     id: "eulogy",

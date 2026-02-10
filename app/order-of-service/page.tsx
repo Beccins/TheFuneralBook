@@ -6,28 +6,7 @@ import Link from "next/link"
 import Image from "next/image"
 import { ArrowLeft, MapPin, Clock, Calendar, Play, ChevronDown, ChevronUp, Music, BookOpen, Mic } from "lucide-react"
 import { useState } from "react"
-   {/* Header */}
-      <header className="border-b border-border bg-background">
-        <div className="container mx-auto px-4 py-6">
-          <div className="flex items-center justify-center">
-            <div className="flex items-center gap-4">
-              <Image
-                src="/funeral-book-logo.webp"
-                alt="The Funeral Book"
-                width={120}
-                height={60}
-                className="object-contain"
-              />
-               <div className="h-8 w-px bg-border"></div>
-              <h1 className="text-2xl font-bold text-foreground">Digital Memorial Services</h1>
-              <div className="h-8 w-px bg-border"></div>
-               <Image
-                src="Hills family funerals logo.png"
-                alt="Hills Family Funerals"
-                width={120}
-                height={60}
-                className="object-contain"
-              />
+ 
 interface ServiceItem {
   id: string
   title: string

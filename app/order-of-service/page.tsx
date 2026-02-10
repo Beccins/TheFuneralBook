@@ -17,7 +17,6 @@ interface ServiceItem {
   spotifyId?: string
   audioUrl?: string
 }
-
 const serviceItems: ServiceItem[] = [
   {
     id: "welcome",

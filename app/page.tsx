@@ -67,7 +67,7 @@ export default function MemorialHomepage() {
 
           {/* Navigation Cards */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <Link href="/order-of-service">
+            <Link href="/thanksgiving service">
               <Card className="hover:shadow-lg hover:scale-105 transition-all duration-200 cursor-pointer bg-card border-border h-64">
                 <CardContent className="p-6 text-center h-full flex flex-col justify-between">
                   <div className="mb-4">
@@ -90,7 +90,7 @@ export default function MemorialHomepage() {
                   <div>
                     <h3 className="text-xl font-semibold text-foreground mb-2">Order of Service</h3>
                     <p className="text-muted-foreground text-pretty">
-                      View the complete funeral service program and schedule
+                      View the complete thanksgiving service program and schedule
                     </p>
                   </div>
                 </CardContent>

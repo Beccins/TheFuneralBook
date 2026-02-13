@@ -273,7 +273,7 @@ export default function OrderOfServicePage() {
         <div className="max-w-4xl mx-auto space-y-8">
           <Card className="bg-card border-border">
             <CardHeader className="text-center pb-4">
-              <CardTitle className="text-3xl font-bold text-foreground mb-4">Celebration of Life</CardTitle>
+              <CardTitle className="text-3xl font-bold text-foreground mb-4">Order of Service</CardTitle>
               <h2 className="text-2xl text-foreground mb-2">Gary Robert Beaumont</h2>
             </CardHeader>
           </Card>

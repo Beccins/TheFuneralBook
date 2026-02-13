@@ -99,7 +99,7 @@ Chorus
     subtitle: "Blessed Assurance",
     time: "unknown",
     type: "hymn",
-    content: `1 Blessed assurance, Jesus is mine!
+    content: Blessed assurance, Jesus is mine!
 Oh, what a foretaste of glory divine!
 Heir of salvation, purchase of God,
 born of his Spirit, washed in his blood.

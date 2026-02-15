@@ -127,7 +127,7 @@ export default function MemorialHomepage() {
               </Card>
             </Link>
 
-            <Link href="/legacy">
+            <Link href="/donations">
               <Card className="hover:shadow-lg hover:scale-105 transition-all duration-200 cursor-pointer bg-card border-border h-64">
                 <CardContent className="p-6 text-center h-full flex flex-col justify-between">
                   <div className="mb-4">

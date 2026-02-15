@@ -77,7 +77,6 @@ My God, how great Thou art!
  
 Chorus
  },
-
   {
     id: "Memories shared of Maureen",
     title: "Memories shared of Maureen",

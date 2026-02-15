@@ -67,7 +67,7 @@ export default function MemorialHomepage() {
 
           {/* Navigation Cards */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <Link href="/thanksgiving service">
+            <Link href="/order-of-service">
               <Card className="hover:shadow-lg hover:scale-105 transition-all duration-200 cursor-pointer bg-card border-border h-64">
                 <CardContent className="p-6 text-center h-full flex flex-col justify-between">
                   <div className="mb-4">

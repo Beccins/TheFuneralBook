@@ -78,36 +78,7 @@ My God, how great Thou art!
 Chorus
  },
   {
-    id: "Memories shared of Maureen",
-    title: "Memories shared of Maureen",
-    subtitle: "Eulogy - Phil, Janine & Ian Munns",
-    time: "unknown",
-    type: "tribute",
-    content: Could this be Phils poem? Insert poem lyrics
-  },
-  {
-    id: "eulogy",
-    title: "Eulogy",
-    subtitle: "Read by Pastor Judy Stanley",
-    time: "unknown",
-    type: "general",
-  },
-  {
-    id: "song",
-    title: "Song",
-    subtitle: "It is well with my soul",
-    time: "unknown",
-    type: "hymn",
-    content: Blessed assurance, Jesus is mine!
-Oh, what a foretaste of glory divine!
-Heir of salvation, purchase of God,
-born of his Spirit, washed in his blood.
-
-Refrain:
-This is my story, this is my song,
-praising my Savior all the day long.
-This is my story, this is my song,
-praising my Savior all the day long.`
+    
   },
   {
     id: "sharing-memories",

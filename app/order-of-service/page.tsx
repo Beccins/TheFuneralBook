@@ -254,7 +254,7 @@ export default function OrderOfServicePage() {
           <Card className="bg-card border-border">
             <CardHeader className="text-center pb-4">
               <CardTitle className="text-3xl font-bold text-foreground mb-4">Order of Service</CardTitle>
-              <h2 className="text-2xl text-foreground mb-2">Maureen Munns</h2>
+              <h2 className="text-2xl text-foreground mb-2">Maureen (Mor) Munns</h2>
             </CardHeader>
           </Card>
 

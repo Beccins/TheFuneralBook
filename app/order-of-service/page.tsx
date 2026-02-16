@@ -32,7 +32,7 @@ const serviceItems: ServiceItem[] = [
   },
   {
     id: "Scripture Reading",
-    title: "1 Peter chapter 1:3-9",
+    title: "Scripture reading - 1 Peter chapter 1:3-9",
     subtitle: "Caitlyn Munns",
   },
   {
@@ -80,14 +80,6 @@ My God, how great Thou art!
  
 Chorus,
  },
- {
-  id: "Memories shared of Maureen",
-  title: "Memories shared of Maureen",
-  subtitle: "Eulogy - Phil, Janine & Ian Munns",
-  time: "unknown",
-  type: "tribute",
-  content: `Could this be Phil's poem? Insert poem lyrics`
-},
   {
     id: "song-3",
     title: "Song",

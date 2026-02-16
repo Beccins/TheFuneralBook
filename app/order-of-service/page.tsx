@@ -90,10 +90,11 @@ Chorus
     subtitle: "It is well with my soul",
     time: "unknown",
     type: "hymn",
-    content: `When peace, like a river, attendeth my way,
-When sorrows like sea billows roll;
-Whatever my lot, Thou hast taught me to say,
-It is well, it is well with my soul.
+    content: `When peace, like a river, 
+    attendeth my way,
+    When sorrows like sea billows roll;
+    Whatever my lot, Thou hast taught me to say,
+    It is well, it is well with my soul.
 
 Refrain:
 It is well with my soul,

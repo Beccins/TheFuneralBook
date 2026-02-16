@@ -129,7 +129,7 @@ Blessed hope, blessed rest of my soul!
 And Lord, haste the day when the faith shall be sight,
 The clouds be rolled back as a scroll;
 The trump shall resound, and the Lord shall descend,
-Even so, it is well with my soul.`
+Even so, it is well with my soul.`,
   },
  {
     id: "Prayer for the family",

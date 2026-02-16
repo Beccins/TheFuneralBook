@@ -84,10 +84,9 @@ Chorus,
   id: "Memories shared of Maureen",
   title: "Memories shared of Maureen",
   subtitle: "Eulogy - Phil, Janine & Ian Munns",
-  subtitle: Melinda Lumb Memories of Auntie Maureen
   time: "unknown",
   type: "tribute",
-  content: `Could this be Phils poem? Insert poem lyrics`
+  content: `Could this be Phil's poem? Insert poem lyrics`
 },
   {
     id: "song-3",

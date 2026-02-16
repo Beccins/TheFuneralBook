@@ -67,7 +67,7 @@ That on the cross,
 My burden gladly bearing, He bled and died
 To take away my sin!
 
-Chorus
+Chorus:
 
 When Christ shall come 
 With shout of acclamation 
@@ -78,7 +78,7 @@ In humble adoration
 And there proclaim,
 My God, how great Thou art!
  
-Chorus,
+Chorus:`,
  },
   {
     id: "song-3",

@@ -29,25 +29,26 @@ const serviceItems: ServiceItem[] = [
     title: "Welcome and prayer",
     subtitle: "Stephen Bates",
     type: "general",
-  },
-  {
-    id: "Scripture Reading",
-    title: "Scripture reading - 1 Peter chapter 1:3-9",
-    subtitle: "Caitlyn Munns",
-  },
-  {
-    id: "song",
-    title: "Song",
-    subtitle: "How Great Thou Art",
-    time: "unknown",
-    type: "hymn",
-    content: `O Lord my God
+ {
+  id: "Scripture Reading",
+  title: "Scripture reading - 1 Peter chapter 1:3-9",
+  subtitle: "Caitlyn Munns",
+  time: "unknown",
+  type: "general",
+},
+{
+  id: "song",
+  title: "Song",
+  subtitle: "How Great Thou Art",
+  time: "unknown",
+  type: "hymn",
+  content: `O Lord my God
 When I in awesome wonder 
 Consider all the worlds
 Thy hands have made, 
 I see the stars,
 I hear the rolling thunder, 
-Thy pow’r throughout The universe displayed!
+Thy pow'r throughout The universe displayed!
 
 Chorus:
 Then sings my soul,
@@ -67,7 +68,7 @@ That on the cross,
 My burden gladly bearing, He bled and died
 To take away my sin!
 
-Chorus:
+Chorus
 
 When Christ shall come 
 With shout of acclamation 
@@ -78,18 +79,16 @@ In humble adoration
 And there proclaim,
 My God, how great Thou art!
  
-Chorus:`,
- },
+Chorus`,
+},
 {
   id: "Memories shared of Maureen",
   title: "Memories shared of Maureen",
-  subtitle: "Eulogy - Phil, Janine & Ian Munns",
-  subtitle: "Melinda Lumb - memories of Aunty Maureen"
+  subtitle: "Eulogy - Phil, Janine & Ian Munns, and Melinda Lumb - memories of Aunty Maureen",
   time: "unknown",
   type: "tribute",
-  content: `Could this be Phil's poem? Insert poem lyrics`
+  content: `Could this be Phil's poem? Insert poem lyrics`,
 },
-
 
 
   {

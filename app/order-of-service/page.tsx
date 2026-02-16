@@ -24,11 +24,6 @@ const serviceItems: ServiceItem[] = [
     subtitle: "Stephen Bates",
     type: "general",
   },
-   {
-    id: "welcome",
-    title: "Welcome and prayer",
-    subtitle: "Stephen Bates",
-    type: "general",
  {
   id: "Scripture Reading",
   title: "Scripture reading - 1 Peter chapter 1:3-9",
@@ -79,7 +74,7 @@ In humble adoration
 And there proclaim,
 My God, how great Thou art!
  
-Chorus`,
+Chorus,`
 },
 {
   id: "Memories shared of Maureen",

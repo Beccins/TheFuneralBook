@@ -22,22 +22,23 @@ const serviceItems: ServiceItem[] = [
     id: "welcome",
     title: "Welcome and prayer",
     subtitle: "Stephen Bates",
+    time: "unknown",
     type: "general",
   },
- {
-  id: "Scripture Reading",
-  title: "Scripture reading - 1 Peter chapter 1:3-9",
-  subtitle: "Caitlyn Munns",
-  time: "unknown",
-  type: "general",
-},
-{
-  id: "song",
-  title: "Song",
-  subtitle: "How Great Thou Art",
-  time: "unknown",
-  type: "hymn",
-  content: `O Lord my God
+  {
+    id: "Scripture Reading",
+    title: "Scripture reading - 1 Peter chapter 1:3-9",
+    subtitle: "Caitlyn Munns",
+    time: "unknown",
+    type: "general",
+  },
+  {
+    id: "song",
+    title: "Song",
+    subtitle: "How Great Thou Art",
+    time: "unknown",
+    type: "hymn",
+    content: `O Lord my God
 When I in awesome wonder 
 Consider all the worlds
 Thy hands have made, 
@@ -74,18 +75,16 @@ In humble adoration
 And there proclaim,
 My God, how great Thou art!
  
-Chorus,`
-},
-{
-  id: "Memories shared of Maureen",
-  title: "Memories shared of Maureen",
-  subtitle: "Eulogy - Phil, Janine & Ian Munns, and Melinda Lumb - memories of Aunty Maureen",
-  time: "unknown",
-  type: "tribute",
-  content: `Could this be Phil's poem? Insert poem lyrics`,
-},
-
-
+Chorus`,
+  },
+  {
+    id: "Memories shared of Maureen",
+    title: "Memories shared of Maureen",
+    subtitle: "Eulogy - Phil, Janine & Ian Munns, and Melinda Lumb",
+    time: "unknown",
+    type: "tribute",
+    content: `Could this be Phil's poem? Insert poem lyrics`,
+  },
   {
     id: "song-3",
     title: "Song",
@@ -93,6 +92,55 @@ Chorus,`
     time: "unknown",
     type: "hymn",
     content: `When peace, like a river, 
+attendeth my way,
+When sorrows like sea billows roll;
+Whatever my lot, Thou hast taught me to say,
+It is well, it is well with my soul.
+
+Refrain:
+It is well (it is well) with my soul (with my soul),
+It is well, it is well with my soul.
+
+Though Satan should buffet, 
+though trials should come,
+Let this blest assurance control,
+That Christ has regarded my helpless estate,
+And has shed His own blood for my soul.
+
+Refrain
+
+My sin—oh, the bliss of this 
+glorious thought!—
+My sin, not in part but the whole,
+Is nailed to the cross, and I bear it no more,
+Praise the Lord, praise the Lord, O my soul!
+
+Refrain
+
+And Lord, haste the day when the 
+faith shall be sight,
+The clouds be rolled back as a scroll;
+The trump shall resound, and the 
+Lord shall descend,
+Even so, it is well with my soul.
+
+Refrain`,
+  },
+  {
+    id: "Prayer for the family",
+    title: "Prayer for the family",
+    subtitle: "Jordon Taylor",
+    time: "unknown",
+    type: "general",
+  },
+  {
+    id: "benediction",
+    title: "Benediction",
+    subtitle: "Joshua Taylor",
+    time: "unknown",
+    type: "general",
+  },
+]
     attendeth my way,
     When sorrows like sea billows roll;
     Whatever my lot, Thou hast taught me to say,

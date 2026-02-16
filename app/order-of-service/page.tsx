@@ -72,7 +72,7 @@ In humble adoration
 And there proclaim,
 My God, how great Thou art!
  
-Chorus
+Chorus,
  },
   {
     

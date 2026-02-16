@@ -24,6 +24,12 @@ const serviceItems: ServiceItem[] = [
     subtitle: "Stephen Bates",
     type: "general",
   },
+   {
+    id: "welcome",
+    title: "Welcome and prayer",
+    subtitle: "Stephen Bates",
+    type: "general",
+  },
   {
     id: "Scripture Reading",
     title: "1 Peter chapter 1:3-9",

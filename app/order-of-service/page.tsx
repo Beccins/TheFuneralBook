@@ -77,13 +77,14 @@ My God, how great Thou art!
  
 Chorus
  },
+ 
   {
     id: "Memories shared of Maureen",
     title: "Memories shared of Maureen",
     subtitle: "Eulogy - Phil, Janine & Ian Munns",
     time: "unknown",
-    type: "prayer",
-    content: Could this be Phils poem,
+    type: "tribute",
+    content: Could this be Phils poem? Insert poem lyrics
   },
   {
     id: "eulogy",

@@ -93,33 +93,30 @@ Chorus,
     It is well, it is well with my soul.
 
 Refrain:
-It is well with my soul,
+It is well (it is well) with my soul (with my soul),
 It is well, it is well with my soul.
 
-Though Satan should buffet, though trials should come,
+Though Satan should buffet, 
+though trials should come,
 Let this blest assurance control,
-That Christ hath regarded my helpless estate,
-And hath shed His own blood for my soul.
+That Christ has regarded my helpless estate,
+And has shed His own blood for my soul.
+Refrain:
 
-My sin—oh, the bliss of this glorious thought!—
+My sin—oh, the bliss of this 
+glorious thought!—
 My sin, not in part but the whole,
 Is nailed to the cross, and I bear it no more,
 Praise the Lord, praise the Lord, O my soul!
+Refrain:
 
-For me, be it Christ, be it Christ hence to live:
-If Jordan above me shall roll,
-No pang shall be mine, for in death as in life
-Thou wilt whisper Thy peace to my soul.
-
-But, Lord, ’tis for Thee, for Thy coming we wait,
-The sky, not the grave, is our goal;
-Oh, trump of the angel! Oh, voice of the Lord!
-Blessed hope, blessed rest of my soul!
-
-And Lord, haste the day when the faith shall be sight,
+And Lord, haste the day when the 
+faith shall be sight,
 The clouds be rolled back as a scroll;
-The trump shall resound, and the Lord shall descend,
-Even so, it is well with my soul.`,
+The trump shall resound, and the 
+Lord shall descend,
+Even so, it is well with my soul.
+Refrain:`,
   },
  {
     id: "Prayer for the family",

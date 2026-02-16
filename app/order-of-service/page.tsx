@@ -274,9 +274,9 @@ export default function OrderOfServicePage() {
                 >
                   Parramatta Baptist Church
                   <br />
-                  87 Kenthurst Rd
+                  84-94 Kleins Road
                   <br />
-                  Kenthurst, NSW, 2156
+                  Northmead, NSW, 2152
                 </a>
               </CardContent>
             </Card>

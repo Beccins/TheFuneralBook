@@ -125,10 +125,17 @@ The clouds be rolled back as a scroll;
 The trump shall resound, and the Lord shall descend,
 Even so, it is well with my soul.`
   },
+ {
+    id: "Prayer for the family",
+    title: "Prayer for the family",
+    subtitle: "Jordon Taylor",
+    time: "unknown",
+    type: "general",
+  },
   {
     id: "benediction",
     title: "Benediction",
-    subtitle: "Pastor Glenn Stanley",
+    subtitle: "Joshua Taylor",
     time: "unknown",
     type: "general",
   },

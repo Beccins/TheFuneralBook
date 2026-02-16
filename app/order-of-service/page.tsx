@@ -30,7 +30,7 @@ const serviceItems: ServiceItem[] = [
     subtitle: "Caitlyn Munns",
     time: "unknown",
     type: "general",
-    content: text for reading here?
+    content: copy deck of scripture reading
   },
   {
     id: "song",

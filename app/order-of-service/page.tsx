@@ -250,7 +250,7 @@ export default function OrderOfServicePage() {
               <CardContent className="p-6 text-center">
                 <Calendar className="w-8 h-8 mx-auto mb-3 text-primary" />
                 <h3 className="font-semibold text-foreground mb-2">Date</h3>
-                <p className="text-muted-foreground">Friday, 6th of February, 2026</p>
+                <p className="text-muted-foreground">Friday, 6th February, 2026</p>
               </CardContent>
             </Card>
 

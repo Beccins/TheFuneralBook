@@ -27,7 +27,7 @@ const serviceItems: ServiceItem[] = [
   },
   {
     id: "Scripture Reading",
-    title: "Scripture reading - 1 Peter chapter 1:3-9",
+    title: "Scripture reading 1 Peter chapter 1:3-9",
     subtitle: "Caitlyn Munns",
     time: "unknown",
     type: "general",

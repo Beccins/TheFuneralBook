@@ -80,6 +80,18 @@ My God, how great Thou art!
  
 Chorus:`,
  },
+{
+  id: "Memories shared of Maureen",
+  title: "Memories shared of Maureen",
+  subtitle: "Eulogy - Phil, Janine & Ian Munns",
+  subtitle: "Melinda Lumb - memories of Aunty Maureen"
+  time: "unknown",
+  type: "tribute",
+  content: `Could this be Phil's poem? Insert poem lyrics`
+},
+
+
+
   {
     id: "song-3",
     title: "Song",

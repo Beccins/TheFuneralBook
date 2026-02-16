@@ -81,12 +81,10 @@ My God, how great Thou art!
 Chorus,
  },
   {
-    
-  },
-  {
     id: "sharing-memories",
     title: "Sharing Memories of Maureen",
-    subtitle: "Pastor Glenn Stanley",
+    subtitle: "Phil, Janine & Ian",
+    subtitle: "Melinda Lumb",
     time: "unknown",
     type: "general",
   },

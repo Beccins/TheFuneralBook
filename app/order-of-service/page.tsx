@@ -244,7 +244,7 @@ export default function OrderOfServicePage() {
           <Card className="bg-card border-border">
             <CardHeader className="text-center pb-4">
               <CardTitle className="text-3xl font-bold text-foreground mb-4">Order of Service</CardTitle>
-              <h2 className="text-2xl text-foreground mb-2">Gary Robert Beaumont</h2>
+              <h2 className="text-2xl text-foreground mb-2">Maureen Munns</h2>
             </CardHeader>
           </Card>
 
@@ -253,7 +253,7 @@ export default function OrderOfServicePage() {
               <CardContent className="p-6 text-center">
                 <Calendar className="w-8 h-8 mx-auto mb-3 text-primary" />
                 <h3 className="font-semibold text-foreground mb-2">Date</h3>
-                <p className="text-muted-foreground">Tuesday, 26th of March, 2024</p>
+                <p className="text-muted-foreground">Friday, 6th of February, 2026</p>
               </CardContent>
             </Card>
 
@@ -261,7 +261,7 @@ export default function OrderOfServicePage() {
               <CardContent className="p-6 text-center">
                 <Clock className="w-8 h-8 mx-auto mb-3 text-primary" />
                 <h3 className="font-semibold text-foreground mb-2">Time</h3>
-                <p className="text-muted-foreground">11:00 AM</p>
+                <p className="text-muted-foreground">1:30 PM</p>
               </CardContent>
             </Card>
 
@@ -270,12 +270,12 @@ export default function OrderOfServicePage() {
                 <MapPin className="w-8 h-8 mx-auto mb-3 text-primary" />
                 <h3 className="font-semibold text-foreground mb-2">Location</h3>
                 <a
-                  href="https://maps.app.goo.gl/NoevFPoF6r64iyNo6" // TODO check if this is right
+                  href=https://www.google.com/maps/place/Parramatta+Baptist+Church/@-33.7891197,150.988575,17z/data=!3m1!4b1!4m6!3m5!1s0x6b12a25722886781:0x7d79e080732b9c08!8m2!3d-33.7891197!4d150.9911499!16s%2Fg%2F1q5brt9z6?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-muted-foreground text-pretty hover:text-primary transition-colors cursor-pointer underline decoration-dotted underline-offset-4"
                 >
-                  Hills Community Church of the Nazarene Kenthurst
+                  Parramatta Baptist Church
                   <br />
                   87 Kenthurst Rd
                   <br />

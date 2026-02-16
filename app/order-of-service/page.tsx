@@ -94,9 +94,9 @@ Chorus
     type: "general",
   },
   {
-    id: "song-2",
+    id: "song",
     title: "Song",
-    subtitle: "Blessed Assurance",
+    subtitle: "It is well with my soul",
     time: "unknown",
     type: "hymn",
     content: Blessed assurance, Jesus is mine!
@@ -112,7 +112,7 @@ praising my Savior all the day long.`
   },
   {
     id: "sharing-memories",
-    title: "Sharing Memories of Gary",
+    title: "Sharing Memories of Maureen",
     subtitle: "Pastor Glenn Stanley",
     time: "unknown",
     type: "general",

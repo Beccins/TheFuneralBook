@@ -27,7 +27,7 @@ const serviceItems: ServiceItem[] = [
   },
   {
     id: "Scripture Reading",
-    title: "Scripture reading 1 Peter chapter 1:3-9",
+    title: "Scripture reading - 1 Peter chapter 1:3-9",
     subtitle: "Caitlyn Munns",
     time: "unknown",
     type: "general",
@@ -141,53 +141,6 @@ Refrain`,
     type: "general",
   },
 ]
-    attendeth my way,
-    When sorrows like sea billows roll;
-    Whatever my lot, Thou hast taught me to say,
-    It is well, it is well with my soul.
-
-Refrain:
-It is well (it is well) with my soul (with my soul),
-It is well, it is well with my soul.
-
-Though Satan should buffet, 
-though trials should come,
-Let this blest assurance control,
-That Christ has regarded my helpless estate,
-And has shed His own blood for my soul.
-Refrain:
-
-My sin—oh, the bliss of this 
-glorious thought!—
-My sin, not in part but the whole,
-Is nailed to the cross, and I bear it no more,
-Praise the Lord, praise the Lord, O my soul!
-Refrain:
-
-And Lord, haste the day when the 
-faith shall be sight,
-The clouds be rolled back as a scroll;
-The trump shall resound, and the 
-Lord shall descend,
-Even so, it is well with my soul.
-Refrain:`,
-  },
- {
-    id: "Prayer for the family",
-    title: "Prayer for the family",
-    subtitle: "Jordon Taylor",
-    time: "unknown",
-    type: "general",
-  },
-  {
-    id: "benediction",
-    title: "Benediction",
-    subtitle: "Joshua Taylor",
-    time: "unknown",
-    type: "general",
-  },
-]
-
 function InteractiveServiceItem({ item }: { item: ServiceItem }) {
   const [isExpanded, setIsExpanded] = useState(false)
   const [isPlaying, setIsPlaying] = useState(false)

@@ -85,7 +85,7 @@ Chorus`,
     type: "tribute",
     content: `Could this be Phil's poem? Insert poem lyrics`,
   },
- {
+  {
     id: "song-3",
     title: "Song",
     subtitle: "It is well with my soul",

@@ -207,9 +207,10 @@ function InteractiveServiceItem({ item }: { item: ServiceItem }) {
           {showSpotifyEmbed && item.type === "hymn" && item.spotifyId && (
             <div className="mt-3">
               <iframe
+            <iframe
                 data-testid="embed-iframe"
                 style={{ borderRadius: "12px" }}
-           src={`https://open.spotify.com/embed/track/${item.spotifyId}?utm_source=generator`}
+                src={`https://open.spotify.com/embed/track/${item.spotifyId}?utm_source=generator`}
                 width="100%"
                 height="352"
                 frameBorder="0"
@@ -217,7 +218,6 @@ function InteractiveServiceItem({ item }: { item: ServiceItem }) {
                 allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                 loading="lazy"
               />
-            </div>
           )}
         </div>
         <span className="text-muted-foreground text-sm ml-4">{item.time}</span>

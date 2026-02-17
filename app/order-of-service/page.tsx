@@ -77,15 +77,14 @@ My God, how great Thou art!
  
 Chorus`,
   },
- {
-  id: "Memories shared of Maureen",
-  title: "Memories shared of Maureen",
-  subtitle: "Eulogy - Phil, Janine & Ian Munns, and Melinda Lumb",
-  time: "unknown",
-  type: "tribute",
-  content: `Could this be Phil's poem? Insert poem lyrics`,
-},
   {
+    id: "Memories shared of Maureen",
+    title: "Memories shared of Maureen",
+    subtitle: "Eulogy - Phil, Janine & Ian Munns, and Melinda Lumb",
+    time: "unknown",
+    type: "tribute",
+    content: `Could this be Phil's poem? Insert poem lyrics`,
+  },
     id: "song-3",
     title: "Song",
     subtitle: "It is well with my soul",

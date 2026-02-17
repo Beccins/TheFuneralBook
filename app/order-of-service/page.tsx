@@ -167,7 +167,7 @@ function InteractiveServiceItem({ item }: { item: ServiceItem }) {
     }
   }
 
-  const canExpand =( item.type === "prayer" && item.content) || (item.type === "hymn" && item.content)
+  const canExpand = ( item.type === "prayer" && item.content) || (item.type === "hymn" && item.content)
   const canPlay = (item.type === "hymn" && item.spotifyId) || (item.type === "tribute" && item.audioUrl)
 
   return (

@@ -144,7 +144,7 @@ Refrain`,
 function InteractiveServiceItem({ item }: { item: ServiceItem }) {
   const [isExpanded, setIsExpanded] = useState(false)
   const [isPlaying, setIsPlaying] = useState(false)
-  const [showSpotifyEmbed, setShowSpotifyEmbed] = useState(false) // Added state for Spotify embed visibility
+  const [showSpotifyEmbed, setShowSpotifyEmbed] = useState(false)
 
   const getIcon = () => {
     switch (item.type) {
@@ -161,13 +161,13 @@ function InteractiveServiceItem({ item }: { item: ServiceItem }) {
 
   const handlePlay = () => {
     if (item.type === "hymn" && item.spotifyId) {
-      setShowSpotifyEmbed(!showSpotifyEmbed) // Toggle Spotify embed instead of opening new window
+      setShowSpotifyEmbed(!showSpotifyEmbed)
     } else if (item.type === "tribute" && item.audioUrl) {
       setIsPlaying(!isPlaying)
     }
   }
 
-  const canExpand = ( item.type === "prayer" && item.content) || (item.type === "hymn" && item.content)
+  const canExpand = (item.type === "prayer" && item.content) || (item.type === "hymn" && item.content)
   const canPlay = (item.type === "hymn" && item.spotifyId) || (item.type === "tribute" && item.audioUrl)
 
   return (
@@ -207,10 +207,9 @@ function InteractiveServiceItem({ item }: { item: ServiceItem }) {
           {showSpotifyEmbed && item.type === "hymn" && item.spotifyId && (
             <div className="mt-3">
               <iframe
-            <iframe
                 data-testid="embed-iframe"
                 style={{ borderRadius: "12px" }}
-                src={https://open.spotify.com/embed/track/${item.spotifyId}?utm_source=generator`}`
+                src={`https://open.spotify.com/embed/track/${item.spotifyId}?utm_source=generator`}
                 width="100%"
                 height="352"
                 frameBorder="0"
@@ -218,6 +217,7 @@ function InteractiveServiceItem({ item }: { item: ServiceItem }) {
                 allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                 loading="lazy"
               />
+            </div>
           )}
         </div>
         <span className="text-muted-foreground text-sm ml-4">{item.time}</span>
@@ -225,7 +225,6 @@ function InteractiveServiceItem({ item }: { item: ServiceItem }) {
     </div>
   )
 }
-
 export default function OrderOfServicePage() {
   return (
     <div className="min-h-screen bg-background">

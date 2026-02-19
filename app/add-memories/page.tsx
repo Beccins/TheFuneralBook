@@ -272,7 +272,7 @@ export default function AddMemoriesPage() {
                   </div>
                   <div className="space-y-2">
                     <Label htmlFor="memory-relationship" className="text-foreground">
-                      Relationship to Gary
+                      Relationship to Maureen
                     </Label>
                     <Input
                       id="memory-relationship"

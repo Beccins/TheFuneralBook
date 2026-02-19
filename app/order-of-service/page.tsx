@@ -32,6 +32,13 @@ const serviceItems: ServiceItem[] = [
     time: "unknown",
     type: "general",
   },
+ {
+    id: "Message",
+    title: "Message",
+    subtitle: "Kathy Bates",
+    time: "unknown",
+    type: "general",
+  },
   {
     id: "song",
     title: "Song",

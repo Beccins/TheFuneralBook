@@ -341,7 +341,7 @@ export default function AddMemoriesPage() {
                     id="memory-description"
                     value={memoryForm.description}
                     onChange={(e) => setMemoryForm((prev) => ({ ...prev, description: e.target.value }))}
-                    placeholder="Tell us about this special moment with Gary..."
+                    placeholder="Tell us about this special moment with Maureen..."
                     rows={4}
                     required
                     className="bg-input border-border resize-none"
@@ -710,7 +710,7 @@ export default function AddMemoriesPage() {
           
           <div className="flex items-center justify-center">
             <div className="flex items-center gap-4">
-              <p className="text-muted-foreground">{"With love and remembrance • The Funeral Book"}</p>
+              <p className="text-muted-foreground">{"Remembrance Reimagined • The Funeral Book"}</p>
               <Image
                 src="/funeral-book-logo.webp"
                 alt="The Funeral Book"
@@ -728,7 +728,7 @@ export default function AddMemoriesPage() {
               rel="noopener noreferrer"
               className="hover:text-muted-foreground transition-colors"
             >
-              Sam Hogan
+              Munns Media Pty Ltd
             </a>
           </p>
         </div>

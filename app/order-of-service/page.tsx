@@ -142,33 +142,33 @@ Refrain`,
   },
 ]
 function InteractiveServiceItem({ item }: { item: ServiceItem }) {
-  const [isExpanded, setIsExpanded] = useState(false)
-  const [isPlaying, setIsPlaying] = useState(false)
-  const [showSpotifyEmbed, setShowSpotifyEmbed] = useState(false)
+  const [isExpanded, setIsExpanded] = useState(false);
+  const [isPlaying, setIsPlaying] = useState(false);
+  const [showSpotifyEmbed, setShowSpotifyEmbed] = useState(false);
 
   const getIcon = () => {
     switch (item.type) {
       case "hymn":
-        return <Music className="w-4 h-4" />
+        return <Music className="w-4 h-4" />;
       case "prayer":
-        return <BookOpen className="w-4 h-4" />
+        return <BookOpen className="w-4 h-4" />;
       case "tribute":
-        return <Mic className="w-4 h-4" />
+        return <Mic className="w-4 h-4" />;
       default:
-        return null
+        return null;
     }
-  }
+  };
 
   const handlePlay = () => {
     if (item.type === "hymn" && item.spotifyId) {
-      setShowSpotifyEmbed(!showSpotifyEmbed)
+      setShowSpotifyEmbed(!showSpotifyEmbed);
     } else if (item.type === "tribute" && item.audioUrl) {
-      setIsPlaying(!isPlaying)
+      setIsPlaying(!isPlaying);
     }
-  }
+  };
 
-  const canExpand = (item.type === "prayer" && item.content) || (item.type === "hymn" && item.content)
-  const canPlay = (item.type === "hymn" && item.spotifyId) || (item.type === "tribute" && item.audioUrl)
+  const canExpand = (item.type === "prayer" && item.content) || (item.type === "hymn" && item.content);
+  const canPlay = (item.type === "hymn" && item.spotifyId) || (item.type === "tribute" && item.audioUrl);
 
   return (
     <div className="border-b border-border pb-3 last:border-b-0">
@@ -223,7 +223,7 @@ function InteractiveServiceItem({ item }: { item: ServiceItem }) {
         <span className="text-muted-foreground text-sm ml-4">{item.time}</span>
       </div>
     </div>
-  )
+  );
 }
 export default function OrderOfServicePage() {
   return (

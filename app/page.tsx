@@ -150,7 +150,7 @@ export default function MemorialHomepage() {
                   <div>
                     <h3 className="text-xl font-semibold text-foreground mb-2">Legacy</h3>
                     <p className="text-muted-foreground text-pretty">
-                      Make a charitable donation in memory of Gary
+                      Make a charitable donation in memory of Maureen
                     </p>
                   </div>
                 </CardContent>

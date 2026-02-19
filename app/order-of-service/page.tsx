@@ -93,6 +93,13 @@ Chorus`,
     type: "tribute",
   },
   {
+    id: "Scripture Reading",
+    title: "Scripture reading - Matthew chapter 25:14-30",
+    subtitle: "Ashlyn Orpen",
+    time: "unknown",
+    type: "general",
+  },
+  {
     id: "song-3",
     title: "Song",
     subtitle: "It is well with my soul",

@@ -14,9 +14,9 @@ interface ServiceItem {
   time: string
   type: "hymn" | "prayer" | "tribute" | "general"
   content?: string
-  spotifyId?: string
   audioUrl?: string
 }
+
 const serviceItems: ServiceItem[] = [
   {
     id: "welcome",
@@ -80,10 +80,10 @@ Chorus`,
   {
     id: "Memories shared of Maureen",
     title: "Memories shared of Maureen",
-    subtitle: "Eulogy - Phil, Janine & Ian Munns, and Melinda Lumb",
+    subtitle: "Phil Munns reads poem - More of Mor",
     time: "unknown",
     type: "tribute",
-    content: `Could this be Phil's poem? Insert poem lyrics`,
+    audioUrl: "/Phil Munns reads poem - More of Mor.m4a",
   },
   {
     id: "song-3",
@@ -141,10 +141,10 @@ Refrain`,
     type: "general",
   },
 ]
+
 function InteractiveServiceItem({ item }: { item: ServiceItem }) {
   const [isExpanded, setIsExpanded] = useState(false);
   const [isPlaying, setIsPlaying] = useState(false);
-  const [showSpotifyEmbed, setShowSpotifyEmbed] = useState(false);
 
   const getIcon = () => {
     switch (item.type) {
@@ -160,15 +160,19 @@ function InteractiveServiceItem({ item }: { item: ServiceItem }) {
   };
 
   const handlePlay = () => {
-    if (item.type === "hymn" && item.spotifyId) {
-      setShowSpotifyEmbed(!showSpotifyEmbed);
-    } else if (item.type === "tribute" && item.audioUrl) {
+    if (item.type === "tribute" && item.audioUrl) {
+      const audio = new Audio(item.audioUrl);
+      if (isPlaying) {
+        audio.pause();
+      } else {
+        audio.play();
+      }
       setIsPlaying(!isPlaying);
     }
   };
 
   const canExpand = (item.type === "prayer" && item.content) || (item.type === "hymn" && item.content);
-  const canPlay = (item.type === "hymn" && item.spotifyId) || (item.type === "tribute" && item.audioUrl);
+  const canPlay = (item.type === "tribute" && item.audioUrl);
 
   return (
     <div className="border-b border-border pb-3 last:border-b-0">
@@ -204,27 +208,13 @@ function InteractiveServiceItem({ item }: { item: ServiceItem }) {
               <p className="text-foreground text-sm leading-relaxed whitespace-pre-line">{item.content}</p>
             </div>
           )}
-          {showSpotifyEmbed && item.type === "hymn" && item.spotifyId && (
-            <div className="mt-3">
-              <iframe
-                data-testid="embed-iframe"
-                style={{ borderRadius: "12px" }}
-                src={`https://open.spotify.com/embed/track/${item.spotifyId}?utm_source=generator`}
-                width="100%"
-                height="352"
-                frameBorder="0"
-                allowFullScreen={true}
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                loading="lazy"
-              />
-            </div>
-          )}
         </div>
         <span className="text-muted-foreground text-sm ml-4">{item.time}</span>
       </div>
     </div>
   );
 }
+
 export default function OrderOfServicePage() {
   return (
     <div className="min-h-screen bg-background">
@@ -274,7 +264,7 @@ export default function OrderOfServicePage() {
                 <MapPin className="w-8 h-8 mx-auto mb-3 text-primary" />
                 <h3 className="font-semibold text-foreground mb-2">Location</h3>
                 <a
-                  href=https://www.google.com/maps/place/Parramatta+Baptist+Church/@-33.7891197,150.988575,17z/data=!3m1!4b1!4m6!3m5!1s0x6b12a25722886781:0x7d79e080732b9c08!8m2!3d-33.7891197!4d150.9911499!16s%2Fg%2F1q5brt9z6?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D"
+                  href="https://www.google.com/maps/place/Parramatta+Baptist+Church/@-33.7891197,150.988575,17z/data=!3m1!4b1!4m6!3m5!1s0x6b12a25722886781:0x7d79e080732b9c08!8m2!3d-33.7891197!4d150.9911499!16s%2Fg%2F1q5brt9z6?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-muted-foreground text-pretty hover:text-primary transition-colors cursor-pointer underline decoration-dotted underline-offset-4"
@@ -293,7 +283,7 @@ export default function OrderOfServicePage() {
             <CardHeader>
               <CardTitle className="text-xl text-foreground text-center">Service Program</CardTitle>
               <p className="text-sm text-muted-foreground text-center mt-2">
-                Click the icons to play hymns, expand prayers, or listen to tributes
+                Click the icons to play audio or expand hymn lyrics
               </p>
             </CardHeader>
             <CardContent className="space-y-4">
@@ -306,7 +296,7 @@ export default function OrderOfServicePage() {
           <div className="grid grid-cols-1 md:grid-cols-1 gap-6">
             <Card className="bg-card border-border">
               <CardHeader>
-                <CardTitle className="text-lg text-foreground">Officiant</CardTitle /* TODO check correct */>
+                <CardTitle className="text-lg text-foreground">Officiant</CardTitle>
               </CardHeader>
               <CardContent>
                 <div className="space-y-2">
@@ -314,7 +304,6 @@ export default function OrderOfServicePage() {
                 </div>
               </CardContent>
             </Card>
-
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -332,11 +321,8 @@ export default function OrderOfServicePage() {
         </div>
       </main>
 
-    
-      {/* Footer */}
       <footer className="border-t border-border bg-muted mt-16">
         <div className="container mx-auto px-4 py-8 text-center">
-          
           <div className="flex items-center justify-center">
             <div className="flex items-center gap-4">
               <p className="text-muted-foreground">{"Remembrance Reimagined • The Funeral Book"}</p>

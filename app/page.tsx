@@ -210,7 +210,7 @@ export default function MemorialHomepage() {
                   <div>
                     <h3 className="text-xl font-semibold text-foreground mb-2">Add Memories</h3>
                     <p className="text-muted-foreground mb-4 text-pretty">
-                      Share photos and stories to celebrate Gary's life
+                      Share photos and stories to celebrate Maureen's life
                     </p>
                   </div>
                 </CardContent>

@@ -80,7 +80,7 @@ Chorus`,
   {
     id: "Memories shared of Maureen",
     title: "Memories shared of Maureen",
-    subtitle: "Phil Munns reads poem - More of Mor",
+    subtitle: "Phil, Janine & Ian. Phil reads poem - More of Mor",
     time: "unknown",
     type: "tribute",
     audioUrl: "/Phil Munns reads poem - More of Mor.m4a",

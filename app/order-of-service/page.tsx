@@ -22,7 +22,7 @@ const serviceItems: ServiceItem[] = [
     id: "welcome",
     title: "Welcome and prayer",
     subtitle: "Stephen Bates",
-    time: "unknown",
+    time:,
     type: "general",
   },
   {

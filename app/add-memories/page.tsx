@@ -237,11 +237,11 @@ export default function AddMemoriesPage() {
             <CardHeader className="text-center">
               <CardTitle className="text-2xl text-foreground mb-2 flex items-center justify-center gap-2">
                 <Camera className="w-6 h-6 text-primary" />
-                Celebrate Gary's Life
+                Celebrate Maureen's Life
               </CardTitle>
               <p className="text-muted-foreground text-pretty">
-                Share your favorite photos and memories of Gary. These precious moments will create a lasting
-                tribute to his beautiful life and the joy he brought to so many people.
+                Share your favorite photos and memories of Mor. These precious moments will create a lasting
+                tribute to her beautiful life and the joy she brought to so many people.
               </p>
             </CardHeader>
           </Card>

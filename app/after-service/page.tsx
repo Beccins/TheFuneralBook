@@ -57,7 +57,7 @@ export default function AfterServicePage() {
                   <p className="text-muted-foreground text-pretty">
                     In the church foyer;
                     <a
-                      href="https://maps.app.goo.gl/8hTCjVCpy7eJ6P888"
+                      href="href="https://www.google.com/maps/place/?q=place_id:ChIJgWeIIleiEmsRCJwrc4DgeX0"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-muted-foreground text-pretty hover:text-primary transition-colors cursor-pointer underline decoration-dotted underline-offset-4"

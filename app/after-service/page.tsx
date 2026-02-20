@@ -30,8 +30,8 @@ export default function AfterServicePage() {
             <CardHeader className="text-center">
               <CardTitle className="text-2xl text-foreground mb-2">Reception & Gathering Details</CardTitle>
               <p className="text-muted-foreground text-pretty">
-                Following the service, family and friends are invited to join us for a reception to continue sharing
-                memories and celebrating Gary's life together.
+                Following the service, family and friends are invited to join us for a thanksgiving reception to continue sharing
+                memories and celebrating Mor's life together.
               </p>
             </CardHeader>
           </Card>
@@ -55,14 +55,14 @@ export default function AfterServicePage() {
                   <MapPin className="w-8 h-8 mx-auto mb-3 text-primary" />
                   <h3 className="font-semibold text-foreground mb-2">Location</h3>
                   <p className="text-muted-foreground text-pretty">
-                    In the church grounds of &nbsp;
+                    In the church foyer;
                     <a
                       href="https://maps.app.goo.gl/8hTCjVCpy7eJ6P888"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-muted-foreground text-pretty hover:text-primary transition-colors cursor-pointer underline decoration-dotted underline-offset-4"
                     >
-                      Hills Community Church of the Nazarene Kenthurst
+                      Parramatta Baptist Church
                     </a>
                   </p>
                 </div>
@@ -73,7 +73,7 @@ export default function AfterServicePage() {
                 <ul className="space-y-2 text-muted-foreground">
                   <li>• Light refreshments and beverages will be served</li>
                   <li>• Opportunity to share stories and memories with family</li>
-                  <li>• Photo displays of Gary's life will be available for viewing</li>
+                  <li>• Photo displays of Mor's life will be available for viewing</li>
                   <li>• Guest book for additional messages and signatures</li>
                 </ul>
               </div>
@@ -90,7 +90,7 @@ export default function AfterServicePage() {
                 <div>
                   <h4 className="font-semibold text-foreground mb-2">Private Family Service</h4>
                   <p className="text-muted-foreground text-pretty">
-                    A private interment service for immediate family will be held at Castlebrook Memorial Park Garden Chapel Rouse Hill at 9am
+                    A private interment service for immediate family will be held at Castlebrook Memorial Park Garden Chapel Rouse Hill at 11am
                   </p>
                 </div>
                 <div>
@@ -117,7 +117,7 @@ export default function AfterServicePage() {
                 <div>
                   <h4 className="font-semibold text-foreground mb-2">Dress Code</h4>
                   <p className="text-muted-foreground text-pretty">
-                    Business casual or semi-formal attire is appropriate. Margaret loved bright colors, so please don't
+                    Business casual or semi-formal attire is appropriate. Maureen loved colors, so please don't
                     feel limited to traditional black.
                   </p>
                 </div>
@@ -169,7 +169,7 @@ export default function AfterServicePage() {
           
           <div className="flex items-center justify-center">
             <div className="flex items-center gap-4">
-              <p className="text-muted-foreground">{"With love and remembrance • The Funeral Book"}</p>
+              <p className="text-muted-foreground">{"Remembrance Reimagined • The Funeral Book"}</p>
               <Image
                 src="/bessie_logo_final.png"
                 alt="The Funeral Book"
@@ -187,7 +187,7 @@ export default function AfterServicePage() {
               rel="noopener noreferrer"
               className="hover:text-muted-foreground transition-colors"
             >
-              Sam Hogan
+              Munns Media Pty Ltd
             </a>
           </p>
         </div>

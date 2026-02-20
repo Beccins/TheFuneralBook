@@ -55,7 +55,7 @@ export default function AfterServicePage() {
                   <MapPin className="w-8 h-8 mx-auto mb-3 text-primary" />
                   <h3 className="font-semibold text-foreground mb-2">Location</h3>
                   <p className="text-muted-foreground text-pretty">
-                    In the church foyer;
+                    In the church foyer,{""}
                     <a
                       href="href="https://www.google.com/maps/place/?q=place_id:ChIJgWeIIleiEmsRCJwrc4DgeX0"
                       target="_blank"

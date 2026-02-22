@@ -59,8 +59,8 @@ export default function AfterServicePage() {
                   <h3 className="font-semibold text-foreground mb-2">Location</h3>
                   <p className="text-muted-foreground text-pretty">
                     In the church foyer,{" "}
-                    
-                 href="https://www.google.com/maps/place/Parramatta+Baptist+Church/@-33.7891197,150.988575,17z/data=!3m1!4b1!4m6!3m5!1s0x6b12a25722886781:0x7d79e080732b9c08!8m2!3d-33.7891197!4d150.9911499!16s%2Fg%2F1q5brt9z6?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D"
+                    <a
+                      href="https://www.google.com/maps/place/Parramatta+Baptist+Church/@-33.7891197,150.988575,17z/data=!3m1!4b1!4m6!3m5!1s0x6b12a25722886781:0x7d79e080732b9c08!8m2!3d-33.7891197!4d150.9911499!16s%2Fg%2F1q5brt9z6?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-muted-foreground text-pretty hover:text-primary transition-colors cursor-pointer underline decoration-dotted underline-offset-4"
@@ -181,8 +181,8 @@ export default function AfterServicePage() {
           </div>
           <p className="text-xs text-muted-foreground/70 mt-2">
             Created by{" "}
-            
-              href="https://github.com/afishydeath"
+            <a
+              href="https://github.com/Beccins"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-muted-foreground transition-colors"

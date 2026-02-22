@@ -4,7 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import Image from "next/image"
-import { ArrowLeft, MapPin, Clock, Users, Car, Phone, Info } from "lucide-react"
+import { ArrowLeft, MapPin, Clock, Users, Info } from "lucide-react"
 
 export default function AfterServicePage() {
   return (
@@ -20,13 +20,14 @@ export default function AfterServicePage() {
               </Button>
             </Link>
             <h1 className="text-2xl font-bold text-foreground">After Service Information</h1>
-            <div className="w-32"></div> {/* Spacer for centering */}
+            <div className="w-32"></div>
           </div>
         </div>
       </header>
 
       <main className="container mx-auto px-4 py-8">
         <div className="max-w-4xl mx-auto space-y-8">
+
           {/* Page Header */}
           <Card className="bg-card border-border">
             <CardHeader className="text-center">
@@ -53,7 +54,7 @@ export default function AfterServicePage() {
                   <h3 className="font-semibold text-foreground mb-2">Time</h3>
                   <p className="text-muted-foreground">Immediately Following the service</p>
                 </div>
-              <div className="text-center">
+                <div className="text-center">
                   <MapPin className="w-8 h-8 mx-auto mb-3 text-primary" />
                   <h3 className="font-semibold text-foreground mb-2">Location</h3>
                   <p className="text-muted-foreground text-pretty">
@@ -69,6 +70,7 @@ export default function AfterServicePage() {
                   </p>
                 </div>
               </div>
+
               <div className="border-t border-border pt-6">
                 <h4 className="font-semibold text-foreground mb-3">What to Expect</h4>
                 <ul className="space-y-2 text-muted-foreground">
@@ -104,7 +106,6 @@ export default function AfterServicePage() {
             </CardContent>
           </Card>
 
-          
           {/* Important Information */}
           <Card className="bg-muted border-border">
             <CardHeader>
@@ -146,7 +147,6 @@ export default function AfterServicePage() {
             </CardContent>
           </Card>
 
-          
           {/* Navigation */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center pt-8">
             <Link href="/order-of-service">
@@ -160,14 +160,13 @@ export default function AfterServicePage() {
               </Button>
             </Link>
           </div>
+
         </div>
       </main>
 
-    
       {/* Footer */}
       <footer className="border-t border-border bg-muted mt-16">
         <div className="container mx-auto px-4 py-8 text-center">
-          
           <div className="flex items-center justify-center">
             <div className="flex items-center gap-4">
               <p className="text-muted-foreground">{"Remembrance Reimagined • The Funeral Book"}</p>
@@ -182,7 +181,7 @@ export default function AfterServicePage() {
           </div>
           <p className="text-xs text-muted-foreground/70 mt-2">
             Created by{" "}
-            <a
+            
               href="https://github.com/afishydeath"
               target="_blank"
               rel="noopener noreferrer"

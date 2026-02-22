@@ -54,19 +54,17 @@ export default function AfterServicePage() {
                 <div className="text-center">
                   <MapPin className="w-8 h-8 mx-auto mb-3 text-primary" />
                   <h3 className="font-semibold text-foreground mb-2">Location</h3>
-                  <p className="text-muted-foreground text-pretty">
-                    In the church foyer,{""}
-                    <a
-                      href="href="https://www.google.com/maps/place/?q=place_id:ChIJgWeIIleiEmsRCJwrc4DgeX0"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-muted-foreground text-pretty hover:text-primary transition-colors cursor-pointer underline decoration-dotted underline-offset-4"
-                    >
-                      Parramatta Baptist Church
-                    </a>
-                  </p>
-                </div>
-              </div>
+                 <p className="text-muted-foreground text-pretty">
+  In the church foyer,{" "}
+  
+    href="https://www.google.com/maps/place/?q=place_id:ChIJgWeIIleiEmsRCJwrc4DgeX0"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-muted-foreground text-pretty hover:text-primary transition-colors cursor-pointer underline decoration-dotted underline-offset-4"
+  >
+    Parramatta Baptist Church
+  </a>
+</p>
 
               <div className="border-t border-border pt-6">
                 <h4 className="font-semibold text-foreground mb-3">What to Expect</h4>

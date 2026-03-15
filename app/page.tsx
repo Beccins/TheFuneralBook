@@ -20,12 +20,6 @@ export default function MemorialHomepage() {
                <div className="h-8 w-px bg-border"></div>
               <h1 className="text-2xl font-bold text-foreground">Digital Memorial Services</h1>
               <div className="h-8 w-px bg-border"></div>
-               <Image
-                src="Hills family funerals logo.png"
-                alt="Hills Family Funerals"
-                width={120}
-                height={60}
-                className="object-contain"
               />
               <div className="h-8 w-px bg-border"></div>
              

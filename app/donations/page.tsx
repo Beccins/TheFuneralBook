@@ -24,15 +24,41 @@ export default function DonationsPage() {
     anonymous: false,
   })
 
-  const charities = [
-    {
-      id: "charity",
-      name: "Charity Name",
-      description:
-        "Description of charity",
-      icon: MessageCircleQuestion,
-    },
-  ]
+// WITH THIS:
+const charities = [
+  {
+    id: "stroke-foundation",
+    name: "Stroke Foundation",
+    description:
+      "The Stroke Foundation works to prevent stroke, save lives and enhance recovery. They fund research, advocate for better care, and support survivors and their families across Australia.",
+    icon: Heart,
+    url: "https://strokefoundation.org.au/donate",
+  },
+  {
+    id: "salvation-army",
+    name: "The Salvation Army",
+    description:
+      "The Salvation Army provides practical assistance to people in need across Australia — from emergency relief and food programs to addiction recovery and aged care.",
+    icon: Users,
+    url: "https://www.salvationarmy.org.au/donate",
+  },
+  {
+    id: "cancer-council",
+    name: "Cancer Council Australia",
+    description:
+      "Cancer Council funds life-saving cancer research, provides support services for those affected by cancer, and advocates for a cancer-smart community across Australia.",
+    icon: Flower,
+    url: "https://www.cancer.org.au/donate",
+  },
+  {
+    id: "white-ribbon",
+    name: "White Ribbon Australia",
+    description:
+      "White Ribbon works to prevent men's violence against women through education, awareness and cultural change — building communities where women and children can live free from violence.",
+    icon: BookOpen,
+    url: "https://whiteribbon.org.au/donate",
+  },
+]
 
   const donationAmounts = ["25", "50", "100", "250", "500"]
 
